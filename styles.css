@@ -1,0 +1,133 @@
+body{
+    margin:0;
+}
+
+header{
+height:60px;
+background: #121236;
+display:flex;
+color: white;
+gap:20px;
+justify-content: space-between;
+text-align:right;
+padding: 4px 0 4px 20px;;
+}
+.border-onhover{
+    border-radius: 2px;
+    border-color: transparent;
+    border-style: solid;
+    }
+.border-onhover:hover{
+border-radius: 2px;
+border-color: white;
+border-style: solid;
+}
+#icon{
+height: 100%;
+background:white
+}
+#search-bar{
+    width:800px;
+    padding:0;
+    margin:0;
+    display: flex;
+    flex-grow:1;
+    border-radius: 16px;
+}
+#search-bar:hover{
+    border-color:#ffb444
+}
+#search-bar-button{
+    background: #ffb444;
+    width:70px;
+    border-radius: 8px 0 0 8px;
+    display: flex;
+    justify-content: center;
+}
+#search-icon-svg{
+    position: relative;
+    margin-top: 10px;
+}
+#input-container{
+    flex-grow:2;
+    background-color: white;
+    display: flex;
+}
+
+#search-input{
+    background: white;
+    flex-grow:2;
+    padding:0;
+    min-width: 300px;
+
+}
+#search-bar-menu{
+background: #d6d6d6;
+border-radius: 0 8px  8px 0;
+}
+
+#option-nav{
+background:#111144;
+color:white;
+display: flex;
+justify-content:flex-end;
+gap:20px;
+}
+
+
+#main-container{
+background: rgb(233, 233, 233);
+width:100%;
+
+
+}
+#main-section{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:2000px;
+    background:url("https://m.media-amazon.com/images/I/61PRFOFwuRL._SX3000_.jpg") no-repeat center top  ;
+    background-size: 1500px 640px;
+}
+
+#invisible-carousule{
+    background: white;
+    height: 230px;
+    margin-top:0;
+    visibility: hidden;
+}
+
+.main-grid{
+width:1500px;
+margin-left: auto;
+margin-right: auto;
+display: grid ;
+grid-template-columns: 25% 25% 25% 25%;
+grid-template-rows: 50% 50%;
+row-gap: 15px;
+}
+
+.grid-item{
+    padding:20px;
+    width: 320px;
+    height: 360px;
+    background: rgb(255, 251, 251);
+    margin:auto;
+    text-align: right;
+}
+.carousule{
+    width:1470px;
+    height:395px;
+    background: rgb(255, 251, 251);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+a{
+    color: rgb(17, 83, 182);
+}
+td>img{
+    width:160px;
+
+    
+}
